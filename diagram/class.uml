@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="222.0" y="298.0">QuatMay</node>
+    <node x="0.0" y="149.0">MauXanh</node>
+    <node x="482.0" y="149.0">MauDo</node>
+    <node x="387.0" y="298.0">MayGiat</node>
+    <node x="290.0" y="104.0">ThietBiDienTu</node>
+    <node x="241.0" y="0.0">MauVe</node>
+    <node x="301.0" y="425.0">Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MauXanh" target="MauVe">
+      <point x="0.0" y="-27.0" />
+      <point x="135.0" y="79.0" />
+      <point x="286.0" y="79.0" />
+      <point x="-90.0" y="27.0" />
+    </edge>
+    <edge source="Client" target="MauDo">
+      <point x="56.25" y="-27.0" />
+      <point x="432.25" y="405.0" />
+      <point x="617.0" y="405.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Client" target="QuatMay">
+      <point x="-18.75" y="-27.0" />
+      <point x="357.25" y="395.0" />
+      <point x="294.5" y="395.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="ThietBiDienTu" target="MauVe">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="QuatMay" target="ThietBiDienTu">
+      <point x="0.0" y="-38.5" />
+      <point x="294.5" y="273.0" />
+      <point x="333.0" y="273.0" />
+      <point x="-43.0" y="72.0" />
+    </edge>
+    <edge source="MauDo" target="MauVe">
+      <point x="0.0" y="-27.0" />
+      <point x="617.0" y="79.0" />
+      <point x="466.0" y="79.0" />
+      <point x="90.0" y="27.0" />
+    </edge>
+    <edge source="MayGiat" target="ThietBiDienTu">
+      <point x="0.0" y="-38.5" />
+      <point x="457.5" y="273.0" />
+      <point x="419.0" y="273.0" />
+      <point x="43.0" y="72.0" />
+    </edge>
+    <edge source="Client" target="MayGiat">
+      <point x="18.75" y="-27.0" />
+      <point x="394.75" y="395.0" />
+      <point x="457.5" y="395.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="Client" target="MauXanh">
+      <point x="-56.25" y="-27.0" />
+      <point x="319.75" y="405.0" />
+      <point x="135.0" y="405.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="322.0" y="317.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
